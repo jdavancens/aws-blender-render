@@ -14,9 +14,9 @@ blender \
 	--python "enable_gpu.py"\
 	-s $start_frame\
 	-e $end_frame\
-	--render-output "$output_folder/frame_#####.png"
-	-a
-	--debug-cycles
-	--debug-gpu
-	--debug-python
+	--render-output "$output_folder/frame_#####.png"\
+	-a\
+	--debug-cycles\
+	--debug-gpu\
+	--debug-python\
 
