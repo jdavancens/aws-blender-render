@@ -1,8 +1,8 @@
 #!/bin/bash
-file_name=$1
+file_name=home/ubuntu/blends/$1
 start_frame=$2
 end_frame=$3
-output_folder=$4
+output_folder=/home/ubuntu/output/frames/$1
 echo Filename: $file_name
 echo Start frame: $start_frame
 echo End frame: $end_frame

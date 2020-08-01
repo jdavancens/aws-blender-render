@@ -1,9 +1,6 @@
 #!/bin/bash
-input=$1
-output=$2
-name=$3
+input=/home/ubuntu/output/frames/$1/%03d.png
+output=/home/ubuntu/output/video/$1.mp4
 echo Image sequence location: $input
-echo Output video location: $output_folder
-echo Output video name: $name
-
-ffmpeg -loglevel verbose -i $input/%03d.png $output_folder/$name.mp4
+echo Output video location: $output
+ffmpeg -loglevel verbose -i $input $output
