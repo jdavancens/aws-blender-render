@@ -1,1 +1,1 @@
-/home/ubuntu/dropbox_uploader.sh download /films/the_green_book/vfx home/ubuntu/blends
+/home/ubuntu/Dropbox-Uploader/dropbox_uploader.sh download /films/the_green_book/vfx home/ubuntu/blends
