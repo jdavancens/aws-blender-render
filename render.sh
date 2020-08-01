@@ -1,5 +1,5 @@
 #!/bin/bash
-file_name=/home/ubuntu/blends/$1/$1.blend
+file_name=/home/ubuntu/blends/$1.blend
 start_frame=$2
 end_frame=$3
 output_folder=/home/ubuntu/output/frames/$1
