@@ -8,11 +8,15 @@ echo Start frame: $start_frame
 echo End frame: $end_frame
 echo Output name: $output_folder
 blender \
-	--background $file_name\
+	--background\
+	$file_name\
 	--engine CYCLES\
 	--python "enable_gpu.py"\
 	-s $start_frame\
 	-e $end_frame\
-	--render-output "$output_folder/frame_####.png"
-
+	--render-output "$output_folder/frame_#####.png"
+	-a
+	--debug-cycles
+	--debug-gpu
+	--debug-python
 
